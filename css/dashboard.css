@@ -1,0 +1,188 @@
+*{
+    transition: .4s ease;
+}
+.header{
+    height: 60px;
+    background-image:linear-gradient(50deg, var(--mine) 50%, var(--my-heaven)  50%);
+}
+.header h6{
+    color: var(--my-heaven);
+}
+.fa-bars{
+    color: var(--my-heaven);
+}
+.main{
+    height: calc(100vh - 60px);
+    top: 0 !important;
+}
+.sideBar{
+    background-color:var(--look);
+    width: 280px;
+    overflow-x: hidden;
+}
+.sideBar.open{
+    width: 0;
+}
+.page{
+    overflow-x: hidden;
+}
+.pageSwitch{
+    background-color: #00000000; 
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: var(--my-heaven);
+}
+.pageSwitch.active{
+    background-color: #00000022;
+    color: var(--my-heaven);
+}
+.main-body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.body{
+    height: 100%;width: 100%;
+    position: relative;
+}
+.body>*{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow-y: auto;
+    top: 0;left: 0;
+    backface-visibility: hidden;
+    background-color: var(--my-heaven);
+}
+.body>*:not(.active){
+    display: none;
+}
+
+main{
+    background-color: var(--my-heaven);
+}
+
+.bg-t{
+    background-color: #00000022;
+}
+.t4{
+    background-color: var(--look);
+    color: var(--my-heaven);
+}
+.col b{
+    color: var(--mine);
+    font-weight: 300;
+}
+.t1 img{
+    object-fit: cover;
+}
+
+.first a{
+    text-decoration: none;
+    color: var(--my-heaven);
+}
+.page h3{
+    color: var(--look);
+    
+}
+.his{
+    background-color: var(--look);
+}
+.ca  a{
+    text-decoration: none;
+    color: var(--my-heaven);
+}
+.t4 i{
+    color: var(--my-heaven);
+    font-size: 30px;
+
+}
+
+.all-transfer{
+    background-color: var(--my-heaven);
+    width: 30%;
+    margin-left: 35%;
+    padding: 40px;
+    height: 80%;
+    box-shadow: 2px 5px 15px #ccc;
+}
+.all-transfer select{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border: 1px solid gray;
+    outline: none;
+    margin-bottom: 15px;
+
+    width: 100%;
+
+ 
+}
+.setting-card{
+    background: #00000033;
+}
+.setting-card h6{
+    margin: 0;
+}
+.transfer-input input{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+}
+.transfer-input{
+    margin-bottom: 15px;
+}
+.transfer-input button{
+    background-color: var(--mine);
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border: none;
+}
+.all-transfer select option:hover{
+    background-color: var(--mine) !important;
+}
+.ziv{
+    color: rgb(30, 235, 30);
+}
+
+.sop{
+     color: var(--mine);
+     font-size: 10px;
+     font-weight: 700;
+   }
+@media(max-width:500px){
+    .all-transfer{
+
+        margin-left: 0%;
+        width: 100%;
+    }
+    .all-transfer select option{
+        width: 50% !important
+        
+    }
+}
+.gig{
+    background-color: var(--look);
+    color: var(--my-heaven);
+}
+.gig i{
+    color: var(--mine);
+}
+.trans-1{
+    font-weight: 600;
+
+}
+.col .trans-1{
+    font-weight: 600;
+}
+.gig a{
+    text-decoration: none;
+    color: var(--my-heaven);
+}

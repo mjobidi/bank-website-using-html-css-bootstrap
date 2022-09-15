@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="./dist2/css/bootstrap.min.css">
+
+    <title>Create_account</title>
+</head>
+<body>
+    
+  <div class="all-sign d-flex flex-wrap">
+    <div class="row">
+       <div class="imgg col-lg-6 inner">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/sign-new.png" class="d-block " alt="...">
+              </div>
+
+            </div>
+          </div>
+       
+
+       </div>
+        
+       
+       
+       
+       <div class="sign-frm col-lg-6">
+            <div class="firsst">
+                <h5>Welcome to MayBank Internet Bank</h5>
+               <a href="index.html"> <img src="./img/new-logo.png" alt=""></a>
+            </div>
+            <div class="pp px-2 px-md-4 d-flex flex-column">
+            <h6 class="mb-3">Create An Account</h6>
+            <p>fill this form to create an account</p>
+
+
+            <div class="form d-flex flex-wrap justify-content-center position-relative px-2 ">
+              <div class="col-md-8 d-flex flex-column  position-relative pb-3">
+                <div class="" id="front">
+                  
+                <label>Birth Date</label>
+                <input type="date" name="" id="" class="input">
+                <label for="">Email Address</label>
+                <input type="email" name="" id="" class="input">
+                <label for="">First Name </label> 
+                <input type="text" name="" id="" class="input">
+                <label for="">Last Name </label>
+                <input type="text" name="" id="" class="input">
+                  
+                <label for="">Phone Number</label>
+                <input type="number" name="" id="" class="input">
+                <label for=""> Address</label>
+                <input type="email" name="" id="" class="input">
+                <div class="py-2 d-flex align-items-center">
+                  <input type="checkbox" name="" id="checkbox"> <i>&nbsp; I have a bvn</i>
+                </div>
+                <div id="bvn" class="d-none">
+                  
+                <label for="">BVN </label>
+                <input type="text" name="" id="" class="input">
+                <label for=""> BVN Phone number </label>
+                <input type="text" name="" id="" class="input">
+              </div>
+              <button class="btn2 w-100 py-2 mt-4">REGISTER</button>
+              </div>
+                
+            </div>
+            <script>
+              let iHave = false;
+              const check = document.querySelector('#checkbox')
+              check.onclick = e => {
+                iHave ? document.querySelector('#bvn').classList.add('d-none') : document.querySelector('#bvn').classList.remove('d-none') 
+                iHave = !iHave
+              }
+
+            </script>
+
+            
+
+
+      <script src="./dist2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

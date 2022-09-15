@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - MayBank</title>
+    <link rel="stylesheet" href="dist2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <header class="header d-flex justify-content-between align-items-center">
+        <div class="dash d-flex align-items-center ps-1 ps-md-3">
+            <i class="fas fa-bars sideBar-toggler" id="sideBar-toggler"></i>
+            <div class="profile-btn d-flex align-items-center ms-3">
+                <img src="./img/IMG_3835.jpeg" alt="loading image...." height="40" width="40" class="rounded-circle">
+                <h6 class="m-0 ms-1">Maryjane Obi</h6>
+            </div>
+        </div>
+        <div class="logo me-1 me-md-3">
+            <a href="index.html"><img src="img/new-logo.png" width="120" alt=""></a>
+        </div>
+    </header>
+    <main class="main d-flex">
+        <aside class="sideBar" id="sideBar">
+            <div class="inner pt-5 d-flex flex-column px-4">
+                <button class="pageSwitch active">
+                    <i class="fas fa-user"></i>
+                    &nbsp;&nbsp;
+                    <b>Overview</b>
+                </button>
+                <button class="pageSwitch">
+                    <i class="fas fa-money-bill"></i>
+                    &nbsp;&nbsp;
+                    <b>Transfer</b>
+                </button>
+                <button class="pageSwitch">
+                    <i class="fas fa-history"></i>
+                    &nbsp;&nbsp;
+                    <b>History</b>
+                </button>
+                <button class="pageSwitch">
+                    <i class="fas fa-square"></i>
+                    &nbsp;&nbsp;
+                    <b>Cards</b>
+                </button>
+                <button class="pageSwitch">
+                    <i class="fas fa-gear"></i>
+                    &nbsp;&nbsp;
+                    <b>Settings</b>
+                </button>
+
+                <div  onclick="window.location.href='sign.html'">
+
+                    <button class="pageSwitch">
+                        <i class="fas fa-sign-out"></i>
+                        &nbsp;&nbsp;
+                        <b>Logout</b>
+                    </button>
+                </div>
+            </div>
+        </aside>
+        <aside class="main-body">
+            <div class="body all-c">
+                <div id="overview-page" class="page first active">
+                    <div>
+                        <h3>OVERVIEW</h3>
+                        <div class="mt-3 py-3 px-1 px-md-3 t1 d-flex flex-wrap align-items-center">
+                            <img src="img/IMG_3835.jpeg" alt="loading image..." height="100" width="100" class="rounded-circle me-4">
+                            <div class="col">
+                                <h4><b>Maryjane obi</b></h4>
+                            <div class="d-flex col-12 col-md-6">
+                                <b class="text-dark">&#8358;20,000</b>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <p class="text-dark">maryobi@gmail.com</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="mt-3 py-3 px-1 px-md-3 first d-flex flex-wrap align-items-center">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-6 p-2 col-md-4">
+                                    <div class="rounded t4 d-block justify-content-center align-items-center p-5 w-100 ">
+                                        <div class="d-flex justify-content-center"><i class="fa-solid fa-credit-card"></i></div>
+                                       <div class="d-flex justify-content-center"> <a href=""><b>TRANSFER</b></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 p-2 col-md-4">
+                                    <div class="rounded t4 d-block justify-content-center align-items-center p-5 w-100">
+                                        <div class="d-flex justify-content-center"><i class="fa-solid fa-id-card-clip"></i></div>
+                                        <div class="d-flex justify-content-center"><a href=""><b>Other_transfer</b></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 p-2 col-md-4">
+                                    <div class="rounded t4 d-block justify-content-center align-items-center p-5 w-100">
+                                        <div class="d-flex justify-content-center"><i class="fa-solid fa-wifi"></i></div>
+                                        <div class="d-flex justify-content-center"><a href=""><b>Data_purchase</b></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 p-2 col-md-4">
+                                    <div class="rounded t4 d-block justify-content-center align-items-center p-5 w-100">
+                                        <div class="d-flex justify-content-center"><i class="fa-solid fa-sd-card"></i></div>
+                                        <div class="d-flex justify-content-center"><a href=""><b>Mobile_top_up</b></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 p-2 col-md-4">
+                                    <div class="rounded t4 d-block justify-content-center align-items-center p-5 w-100">
+                                        <div class="d-flex justify-content-center"><i class="fas fa-users"></i></div>
+                                       <div class="d-flex justify-content-center"><a href=""><b>Reward&referral</b></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 p-2 col-md-4">
+                                    <div class="rounded t4 d-block justify-content-center align-items-center p-5 w-100">
+                                        <div class="d-flex justify-content-center"><i class="fa-solid fa-cart-arrow-down"></i></div>
+                                        <div class="d-flex justify-content-center"><a href=""><b>Central</b></a></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-6 p-2 col-md-4">
+                                    <div class="rounded t4 d-block justify-content-center align-items-center p-5 w-100">
+                                        <div class="d-flex justify-content-center"><i class="fa-solid fa-database"></i></div>
+                                        <div class="d-flex justify-content-center"><a href=""><b>internationl_airtime</b></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="transfer-page" class="page">
+                    <div class="py-3 px-1 px-md-3" >
+                        <h3>TRANSFER</h3>
+                    </div>
+
+                     <div class="all-transfer">
+                          <div>
+                            <select name="" id="" >
+                                <option value="">Select Bank</option>
+                                <option value="">First Bank</option>
+                                <option value="">Zenith Bank</option>
+                                <option value="">Fedility Bank</option>
+                             </select>
+                             <div class="transfer-input">
+                                  <input type="text" value="Beneficiary">
+                             </div>
+                             <div class="transfer-input">
+                                <input  type="text" value=" Amount">
+                                <p class="small sop">Maximum Amount: <i class="fa fa-naira-sign"></i>1,000,000</p>
+                           </div>
+                             <div class="transfer-input">
+                                <input type="text" value="Narration">
+                           </div>
+                           <div class="transfer-input">
+                            <button>Proceed</button>
+                        </div>
+                          </div>
+                     </div>
+                    
+                </div>
+                <div id="history-page" class="page">
+                    <div class="py-3 px-1 px-md-3">
+                        <h3>HISTORY</h3>
+                        <p>0106565185</p>
+                        <div class="mt-3 py-3 px-1 px-md-3 d-flex flex-wrap align-items-center">
+                            <div class="d-flex flex-wrap ">
+                                    <div class="rounded  his text-light p-1 p-md-2 w-100 mb-2 ">
+                                        <div class="d-flex justify-content-between ziv">
+                                            <h6>recieved</h6>
+                                            <b >&#8358;10,000</b>
+                                        </div>
+                                        <div class="d-flex flex-wrap justify-content-between">
+                                            <p class="col-12 col-md-8">
+                                            IKECHUKWU DANIEL FBNMOBILE:MARYJANE OBI
+                                            </p>
+                                            <b class="text-light">May 12 2022</b>
+                                        </div>
+                                    </div>
+                                    <div class="rounded his text-light p-1 p-md-2 w-100 mb-2">
+                                        <div class="d-flex justify-content-between ziv">
+                                            <h6>recieved</h6>
+                                            <b>&#8358;5,000</b>
+                                        </div>
+                                        <div class="d-flex flex-wrap justify-content-between">
+                                            <p class="col-12 col-md-8">
+                                            TOMIWA GRACE FBNMOBILE:MARYJANE OBI
+                                            </p>
+                                            <b class="text-light">May 12 2022</b>
+                                        </div>
+                                    </div>
+                                    <div class="rounded his text-light p-1 p-md-2 w-100 mb-2">
+                                        <div class="d-flex justify-content-between ziv">
+                                            <h6>recieved</h6>
+                                            <b>&#8358;5,000</b>
+                                        </div>
+                                        <div class="d-flex flex-wrap justify-content-between">
+                                            <p class="col-12 col-md-8">
+                                            SUSANN OBI ACCESSMOBILE:MARYJANE OBI
+                                            </p>
+                                            <b class="text-light">May 12 2022</b>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cards-page" class="page">
+                    <div class="px-1 px-md-3 py-3">
+                        <h3>CARDS</h3>
+                        <div class="mt-3 py-3 px-1 t3  px-md-3 d-flex flex-wrap align-items-center">
+                            <div><img class="shadow-img " src="./img/card2.png" alt=""></div>
+                            <div class="col">
+                                <p>MayBank gives free ATM card! expired? hurry go get another!</p>
+                                <b class="trans-1">Expires on:</b>
+                                &nbsp;&nbsp;&nbsp;
+                                <strong>12 dec 2022</strong>
+                            </div>
+                        </div>
+                        <div class="mt-3 py-3 px-1 px-md-3 ">
+                            <div class="d-flex flex-wrap ca">
+                                <div class="col-6 p-2 col-md-3 ">
+                                    <div class="rounded t4  d-flex justify-content-center align-items-center p-5 w-100 text-center"><a href=""><b>Request new Card</b></a></div>
+                                </div>
+                                <div class="col-6 p-2 col-md-3">
+                                    <div class="rounded t4  d-flex justify-content-center align-items-center p-5 w-100 text-center"><a href=""><b>Block Card</b></a></div>
+                                </div>
+                                <div class="col-6 p-2 col-md-3">
+                                    <div class="rounded t4  d-flex justify-content-center align-items-center p-5 w-100 text-center"><a href=""><b>Report stolen card</b></a></div>
+                                </div>
+                                <div class="col-6 p-2 col-md-3">
+                                    <div class="rounded t4  d-flex justify-content-center align-items-center p-5 w-100 text-center"><a href=""><b>change existing card</b></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="settings-page" class="page">
+                    <div class="p-1 p-md-3">
+                        <h3>SETTINGS</h3>
+                        <div class="d-flex flex-wrap">
+                            <div class="col-12 p-3 d-flex rounded gig setting-card mb-2 align-items-center">
+                                <i class="fas fa-user"></i>
+                                <div class="p-2"></div>
+                                <a href=""><h6>Edit Profile</h6> </a>
+                  
+                           </div>
+                            <div class="col-12 p-3 d-flex rounded gig setting-card mb-2 align-items-center">
+                                <i class="fas fa-lock"></i>
+                                <div class="p-2"></div>
+                                <a href=""><h6>Change Transaction PIN</h6></a>
+                            </div>
+                            <div class="col-12 p-3 d-flex rounded gig setting-card mb-2 align-items-center">
+                                <i class="fas fa-user"></i>
+                                <div class="p-2"></div>
+                                <a href=""><h6>Notifications</h6> </a>  
+                         </div>
+                            <div class="col-12 p-3 d-flex rounded gig setting-card mb-2 align-items-center">
+                                <i class="fas fa-user"></i>
+                                <div class="p-2"></div>
+                                <a href=""><h6>Change password</h6></a>
+                            </div>
+                            <div class="col-12 p-3 d-flex rounded gig setting-card mb-2 align-items-center">
+                                <i class="fas fa-user"></i>
+                                <div class="p-2"></div>
+                                <a href=""><h6>Close account</h6> </a> 
+                          </div>
+                            <div class="col-12 p-3 d-flex rounded gig setting-card mb-2 align-items-center">
+                                <i class="fas fa-user"></i>
+                                <div class="p-2"></div>
+                                <a href=""><h6>Link BVN</h6> </a> 
+                          </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+    </main>
+</body>
+
+<script>
+    const pageSwitchers = document.querySelectorAll('.pageSwitch')
+    const pages = document.querySelectorAll('.page')
+    pageSwitchers.forEach(element => {
+        element.onclick = e => {
+            for (let i = 0; i < pageSwitchers.length; i++) {
+            pageSwitchers[i].classList.remove('active')
+        }
+        element.classList.add('active')
+        let title = element.querySelector('b').innerText
+        for (let i = 0; i < pages.length; i++) {
+            pages[i].classList.remove('active')
+            let _title = pages[i].id.split('-')[0]
+            if (title.toLowerCase() == _title.toLowerCase()) {
+                pages[i].classList.add('active')
+            }
+        }
+        }
+    });
+    const sideBarToggler = document.querySelector('#sideBar-toggler')
+    const sideBar = document.querySelector('#sideBar')
+    let isSidebar = window.innerWidth < 700 ? true : false
+    if(isSidebar) sideBar.classList.add('open')
+    else sideBar.classList.remove('open')
+    sideBarToggler.onclick = e => {
+        isSidebar = !isSidebar
+    if(isSidebar) sideBar.classList.add('open')
+    else sideBar.classList.remove('open')
+    }
+</script>
+
+
+
+
+</html>

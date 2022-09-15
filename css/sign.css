@@ -1,0 +1,172 @@
+.imgg{
+    /* background-image: url(../img/sign-new.png); */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.firsst{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    border-bottom: 1px solid var(--look);
+}
+.sign-frm h6{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: var(--mine);
+    font-weight: 500;
+}
+.sign-frm{
+    background-color: var(--my-heaven);
+}
+.firsst h5{
+    font-weight:100 ;
+    color: var(--look);
+}
+.sign-frm p{
+    display: flex;
+    justify-content: center;
+}
+.pp span{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.pp{
+    margin-top: 2rem;
+    color: var(--look);
+    font-weight: 500;
+}
+.g1{
+    width: 20vw;
+    margin-top: 3rem;
+    
+}
+.g2{
+    background-color: var(--mine);
+}
+.fc{
+    outline: none;
+    border: 1px solid #ccc;
+    width: 84%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--my-heaven);
+}
+.fc-1{
+    outline: none;
+    border: 1px solid #ccc;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--my-heaven);
+}
+body{
+    overflow-x: hidden;
+}
+.all-input-field{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.g4{
+    width: 20vw;
+}
+.g5{
+     width: 20vw;
+}
+.fc-2{
+    width: 68%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+.input-a a{
+    padding: 10px;
+    background-color: var(--mine);
+    display: inline-block;
+    width: 20vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--my-heaven);
+    font-weight: 700;
+    cursor: pointer;
+}
+.input-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.word a{
+    color: blueviolet;
+    cursor: pointer;
+    text-decoration: none;
+}
+.word a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.all-a{
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+.all-a a{
+    color: var(--mine);
+    text-decoration: none;
+}
+.last{
+    font-size:small;
+    margin-top:3rem;
+    color: var(--mine);
+}
+.last p span{
+    color: var(--look);
+
+}
+@media screen and (max-width:800px) {
+    .imgg{
+        display: none;
+    }
+    .g1{ width: 80vw; }
+    .g4{width: 82vw;}
+    .fc{width:86% ;}
+    .g5{width: 82vw;}
+    .fc-2{width: 78%;}
+     .input-a a{width: 90vw;}
+}
+@media screen and (max-width:500px){
+    .g1{   width: 80vw; }
+    .imgg{  display: none; }
+    .g4{width: 82vw;}
+    .g5{  width: 82vw;}
+    .fc-2{ width: 70%;}
+    .input-a a{width: 90vw;}
+    .firsst{flex-direction: column-reverse;}
+    .firsst img{
+        width: 30vw;
+        margin-left: 16rem;
+        box-shadow: 3px 6px 15px rgba(248, 245, 245, 0.2);   
+    }
+}
+
+/* left side */
+.carousel-inner img{
+    height: 50vw;
+    overflow: hidden;
+}
+.all-sign{
+    background-color: var(--my-heaven);
+}
+.good img{
+ object-fit: cover;
+ width: 50vw;
+ object-position: left;
+background-position: 90% 50%;
+}

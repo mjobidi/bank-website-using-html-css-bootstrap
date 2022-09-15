@@ -1,0 +1,141 @@
+.first-read{
+    height: 100%;
+    padding: calc((10vw + 15vh) / 2) 0 0 10vw;
+    line-height: rem;
+    background-image:  linear-gradient(15deg, var(--mine) 25%, var(--my-heaven) 50%);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2rem;
+}
+.text h3{
+    color: var(--my-heaven);
+    font-family: fantasy;
+    border-left: 3px solid var(--look);
+    height: 8vh;
+}
+.text p{
+    color: var(--mine);
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.reader img{
+       width: 40vw;
+       height: 25vw;
+       object-fit: cover;
+       box-shadow: 8px 3px 2px rgba(0,0,0,0.2);
+       min-width: 100%;
+       
+}
+.all-p{
+   color: var(--mine);
+   font-weight: 500;
+}
+.card-title{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+.bn a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 8px;
+    background-color: var(--my-heaven);
+    border-radius: 35%;
+    border: 4px solid var(--mine);
+    width: 8vw;
+    height: 8vh;
+    
+}
+.bn a:hover{
+     background-color: var(--mine);
+     color: var(--my-heaven);
+}
+
+.alert{
+    background-color: var(--mine);
+    width: 40%;
+     position: fixed;
+      bottom: 0;
+      right: 0;
+}
+.all-alert{
+    display: flex;
+}
+.alert-img img{
+   width: 6rem;
+   height: 6rem;
+   object-fit: cover;
+}
+.all-alert{
+    display: flex;
+}
+.alert-text{
+    margin-left: 30px;
+}
+.alert-text h4{
+    color: white;
+    font-size: bolder;
+}
+.alert-text p{
+    color: rgba(255, 255, 255, 0.9);
+}
+.alert-input input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #555;
+    outline: none;
+    border-radius: 5px;
+}
+.alert-input{
+    text-align: center;
+}
+.alert-input button{
+    background-color: white;
+    margin-top: 15px;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+
+}
+.fa-times{
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+
+    .alert{
+        background-color: var(--mine);
+        width: 100%;
+         position: fixed;
+          bottom: 0;
+          left: 0;
+    }
+    .bn a{
+        min-width: 30%;
+    }
+}
+
+
+.waviy span {
+    font-family:  cursive;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
